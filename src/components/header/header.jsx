@@ -17,9 +17,9 @@ export const Header = () => {
           </ul>
         </nav>
         <div className={styles.social}>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
+          <a href="" className={styles.social_link}></a>
+          <a href="" className={styles.social_link}></a>
+          <a href="" className={styles.social_link}></a>
         </div>
         <button className={styles.button_call}>Зв'язок з нами</button>
       </div>
