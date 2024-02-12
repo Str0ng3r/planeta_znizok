@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Header } from './components/header/header'
 import { Main } from './components/main/main'
+import { Bunners } from './components/bunners/bunners'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
 <Header></Header>
 <Main></Main>
+<Bunners></Bunners>
     </>
   )
 }

@@ -83,9 +83,6 @@ main {
   align-items: flex-start;
   justify-content: center;
 }
-.right_box {
-  height: 812px;
-}
 .main_img {
   border-radius: 16px;
 

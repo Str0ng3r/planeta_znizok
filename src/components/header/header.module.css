@@ -36,7 +36,7 @@ nav {
     gap: 48px;
     padding-left: 49px;
 }
-.nav_link {
+.nav_link a{
    list-style-type: none; 
    color: rgb(119, 126, 145);
 font-family: Open Sans;
@@ -45,7 +45,11 @@ font-weight: 700;
 line-height: 16px;
 letter-spacing: 0%;
 white-space: nowrap;
+cursor: pointer;
 text-align: center;
+}
+.nav_link a:hover {
+    color: black;
 }
 .social {
     display: flex;
@@ -83,4 +87,13 @@ font-size: 14px;
 font-weight: 700;
 line-height: 16px;
 text-align: center;
+}
+.instagram_icon:hover path {
+    fill: plum;
+}
+.facebook_icon:hover path{
+    fill: blue;
+}
+.twitter_icon:hover path{
+    fill: #61FFFF;
 }
