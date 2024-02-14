@@ -36,6 +36,9 @@ nav {
     gap: 48px;
     padding-left: 49px;
 }
+.nav_link {
+    list-style-type: none; 
+}
 .nav_link a{
    list-style-type: none; 
    color: rgb(119, 126, 145);

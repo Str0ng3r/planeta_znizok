@@ -5,6 +5,7 @@ import './App.css'
 import { Header } from './components/header/header'
 import { Main } from './components/main/main'
 import { Bunners } from './components/bunners/bunners'
+import { Videossect } from './components/videossect/videossect'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 <Header></Header>
 <Main></Main>
 <Bunners></Bunners>
+<Videossect></Videossect>
     </>
   )
 }
