@@ -1,102 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 header {
-    background-color: #F3F4F5;
+padding-left: 140px;
+padding-right: 140px;
+background: linear-gradient(208.65deg, rgb(128, 193, 249) 20.683%,rgba(128, 193, 249, 0) 100%);
+padding-top: 40px;
+padding-bottom: 30px;
 }
 .cont {
     display: flex;
-    max-width: 1920px;
+    max-width: 1640px;
+    flex-direction: column;
 width: 100%;
     margin: 0 auto;
-    padding-left: 40px;
-    
-    padding-right: 120px;
+    align-items: center;
+justify-content: center;
+}
+.cont_navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 74px;  
+}
+.nav {
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 46px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    background: rgb(247, 247, 247);
+}
+.link_nav {
+    color: rgb(36, 36, 36);
+font-family: Inter;
+font-size: 16px;
+font-weight: 510;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.header_text {
+    color: rgb(255, 255, 255);
+    font-family: Kodchasan;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 125px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.header_text span{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 125px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.header_desc {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 120.83%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 56px;
+}
+.header_desc span{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 120.83%;
+letter-spacing: 0%;
+text-align: left;
+}
+.wrapper_header {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    box-sizing: border-box;
-    border-radius: 80px;
-/* depth/1 */
-box-shadow: 0px 8px 16px -8px rgba(15, 15, 15, 0.2);
+    width: 100%;
 }
-.right_side {
+.wrap_for_texbut {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
-.logotip {
-    width: 138px;
-height: 138px;
-}
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+.buy_button {
+    padding: 16px 85.5px 16px 85.5px;
+    border-radius: 50px;
+background: rgb(4, 61, 174);
 
-.nav_list {
-    display: flex;
-    gap: 48px;
-    padding-left: 49px;
-}
-.nav_link {
-    list-style-type: none; 
-}
-.nav_link a{
-   list-style-type: none; 
-   color: rgb(119, 126, 145);
-font-family: Open Sans;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
 letter-spacing: 0%;
-white-space: nowrap;
-cursor: pointer;
-text-align: center;
+text-align: left;
+margin-right: 24px;
 }
-.nav_link a:hover {
-    color: black;
-}
-.social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-}
-.social_link {
-    height: 20px;
-}
-.button_call {
-/* Buttons */
-width: 150px;
-height: 40px;
-/* Auto layout */
-background-color: transparent;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 20px 12px 20px;
-box-sizing: border-box;
-/* Neutrals/6 */
-border: 2px solid rgb(230, 232, 236);
-border-radius: 100px;
-
-margin-left: 64px;
-/* Inside Auto Layout */
-order: 1;
-flex-grow: 0;
-color: rgb(35, 38, 47);
-font-family: Open Sans;
-white-space: nowrap;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-text-align: center;
-}
-.instagram_icon:hover path {
-    fill: plum;
-}
-.facebook_icon:hover path{
-    fill: blue;
-}
-.twitter_icon:hover path{
-    fill: #61FFFF;
+.details_button {
+    box-sizing: border-box;
+    background-color: transparent;
+border: 1px solid rgb(0, 21, 63);
+border-radius: 50px;
+padding: 16px 100px 16px 100px;
+color: rgb(0, 21, 63);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
 }
