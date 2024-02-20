@@ -5,6 +5,11 @@ import './App.css'
 import { Header } from './components/header/header'
 import { Main } from './components/main/main'
 import { Videossect } from './components/videossect/videossect'
+import { Easy } from './components/easyuse/easy'
+import { Character } from './components/character/character'
+import { Techchar } from './components/techcharacters/techcharracter'
+import { Complect } from './components/complect/complect'
+import { Footer } from './components/footer/footer'
 
 function App() {
 
@@ -13,6 +18,11 @@ function App() {
 <Header></Header>
 <Main></Main>
 <Videossect></Videossect>
+<Easy></Easy>
+<Character></Character>
+<Techchar></Techchar>
+<Complect></Complect>
+<Footer></Footer>
     </>
   )
 }

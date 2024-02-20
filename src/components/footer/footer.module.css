@@ -1,0 +1,58 @@
+.footer {
+  padding-bottom: 128px;
+
+}
+.cont {
+  width: 100%;
+  max-width: 1640px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 147px 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 131, 213);
+  border-radius: 40px;
+}
+.main_text {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 83px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.button_buy {
+  border-radius: 50px;
+  background: rgb(4, 61, 174);
+  /* Buy_button */
+  padding: 16px 86px 16px 86px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.phone_img_left {
+  max-width: 224px;
+  max-height: 224px;
+  position: absolute;
+  left: 60px;
+  bottom: 46px;
+  min-width: 40px;
+  min-height: 40px;
+}
+.phone_img_right{
+    position: absolute;
+    max-width: 224px;
+    max-height: 224px;
+    top: 51px;
+    right: 51px;
+    min-width: 40px;
+    min-height: 40px;
+}

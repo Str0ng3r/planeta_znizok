@@ -22,21 +22,37 @@ export const Header = () => {
               Контакти
             </a>
           </nav>
-          <div><a href="https://web.telegram.org/k/#@Hanterpm"><img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/telegram.png" alt="telegram"/></a></div>
+          <div>
+            <a href="https://web.telegram.org/k/#@Hanterpm" className={styles.link_telegram}>
+              <img
+                width="94"
+                height="94"
+                src="https://img.icons8.com/3d-fluency/94/telegram.png"
+                alt="telegram"
+              />
+            </a>
+          </div>
         </div>
         {/* NAVIGATION */}
-        <h1 className={styles.header_text}>
+        <h1 className={styles.header_text} id="mainbuy">
           <span>Дитячий портативний міні принтер</span> Portable Mini Printer
         </h1>
         <div className={styles.wrapper_header}>
           <div className={styles.wrap_for_texbut}>
-            <p className={styles.header_desc}><span>Дитячий термо-принтер</span> - це чудовий подарунок для дитини на будь який
-            вік. <br /> Неймовірний маленький принтер <span>Mini</span> допоможе вам краще
-            запам'ятати, <br /> записати, передати повідомлення, зняти знімок,
-            скріншоти. <br />На даному принтері можна <span>друкувати будь-яку текстову або <br />
-            графічну інформацію прямо з смартфона через bluetooth з'єднання.</span></p>
+            <p className={styles.header_desc}>
+              <span>Дитячий термо-принтер</span> - це чудовий подарунок для
+              дитини на будь який вік. <br /> Неймовірний маленький принтер{" "}
+              <span>Mini</span> допоможе вам краще запам'ятати, <br /> записати,
+              передати повідомлення, зняти знімок, скріншоти. <br />
+              На даному принтері можна{" "}
+              <span>
+                друкувати будь-яку текстову або <br />
+                графічну інформацію прямо з смартфона через bluetooth з'єднання.
+              </span>
+            </p>
             <div className={styles.buttons_cont}>
-<button className={styles.buy_button}>Придбати</button><button className={styles.details_button}>Деталі</button>
+              <button className={styles.buy_button}>Придбати</button>
+              <button className={styles.details_button}>Деталі</button>
             </div>
           </div>
           <img src={mainimg} alt="photo mini_printer" />

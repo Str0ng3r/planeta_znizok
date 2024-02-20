@@ -24,14 +24,15 @@ justify-content: center;
     margin-bottom: 74px;  
 }
 .nav {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
     gap: 46px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width:582px;
     border-radius: 100px;
     background: rgb(247, 247, 247);
 }
@@ -43,6 +44,15 @@ font-weight: 510;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
+transition: all 0.3s ease;
+padding: 6px;
+box-sizing: border-box;
+}
+.link_nav:hover {
+transform: scale(1.1);
+color: black;
+border: none;
+transform-origin: center;
 }
 .header_text {
     color: rgb(255, 255, 255);
@@ -93,11 +103,17 @@ text-align: left;
     flex-direction: column;
     align-items: flex-start;
 }
+.link_telegram img{
+    transition:all 0.3s ease;
+}
+.link_telegram:hover img{
+    transform: scale(1.3);
+}
 .buy_button {
     padding: 16px 85.5px 16px 85.5px;
     border-radius: 50px;
-background: rgb(4, 61, 174);
-
+background: #AE5004;
+border: 1px solid #FFFFFF;
 color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 16px;
@@ -106,6 +122,13 @@ line-height: 28px;
 letter-spacing: 0%;
 text-align: left;
 margin-right: 24px;
+transition: all 0.5s ease;
+}
+.buy_button:hover {
+    border: 1px solid #FFFFFF;
+transform: scale(1.2);
+color: #FFFFFF;
+transform-origin: center;
 }
 .details_button {
     box-sizing: border-box;
@@ -114,10 +137,18 @@ border: 1px solid rgb(0, 21, 63);
 border-radius: 50px;
 padding: 16px 100px 16px 100px;
 color: rgb(0, 21, 63);
+margin: 8px;
 font-family: Inter;
 font-size: 16px;
 font-weight: 600;
 line-height: 28px;
-letter-spacing: 0%;
 text-align: left;
+transition: all 0.4s ease;
 }
+.details_button:hover {
+    border: 1px solid #FFFFFF;
+    transform: scale(1.2);
+    color: #FFFFFF;
+    transform-origin: center;
+    }
+    
