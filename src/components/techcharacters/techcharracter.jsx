@@ -2,7 +2,7 @@ import styles from "./techharacters.module.css";
 import techchar from "../../img/techchar.png";
 export const Techchar = () => {
   return (
-    <section className={styles.techchar}>
+    <section className={styles.techchar} id="char">
       <div className={styles.cont}>
         <img src={techchar} alt="mini-printer" className={styles.img_tech} />
         <div className={styles.cont_text}>

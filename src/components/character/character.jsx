@@ -5,7 +5,7 @@ export const Character = () => {
     <section className={styles.char_section}>
       <div className={styles.cont}>
         <div className={styles.cont_for_text}>
-          <h3 className={styles.main_text}>Характеристика:</h3>
+          <h3 className={styles.main_text} id="detali">Характеристика:</h3>
           <ul className={styles.list_char}>
             <li>- Термодрук без використання фарби</li>
             <li>

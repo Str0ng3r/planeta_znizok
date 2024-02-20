@@ -4,7 +4,7 @@
   width: 100vw;
 /* Neutrals/8 */
 background: rgb(0, 172, 172);
-
+overflow: hidden;
 }
 div {
   box-sizing: border-box;

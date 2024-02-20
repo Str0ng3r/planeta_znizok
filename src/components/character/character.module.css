@@ -61,7 +61,7 @@
   background: rgb(4, 61, 174);
 }
 .img_printer {
-    width: 100%;
+    width: 50%;
     max-width: 800px;
     padding: 20px;
     box-sizing: border-box;
