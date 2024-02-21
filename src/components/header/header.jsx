@@ -93,7 +93,7 @@ export const Header = () => {
                   };
                   axios
                     .post(
-                      "https://65d4dcad3f1ab8c634362706.mockapi.io/dannie/order",
+                      "https://65d4dcad3f1ab8c634362706.mockapi.io/dannie/towarka",
                       obj
                     )
                     .then((response) => {
