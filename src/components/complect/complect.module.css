@@ -54,3 +54,18 @@ margin-bottom: 48px;
     max-width: 732px;
     border-radius: 12.58px;
   }
+  @media (max-width:999px) {
+    .cont {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 0 10px;
+    }
+    .text_cont {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .button_buy {
+      margin: 0 auto;
+    }
+  }

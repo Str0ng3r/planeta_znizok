@@ -179,3 +179,41 @@ text-align: left;
     top: 20px;
     right: 20px;
 }
+@media (max-width:999px) {
+  .easy_text {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+  }
+  .mini_text {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 72px;
+  }
+  .wrap_cont {
+    justify-content: center;
+    align-items: center;
+    padding:0 10px;
+    flex-direction: column;
+  }
+  .name_paper {
+    margin-bottom: 20px;
+  }
+  .button_moredetail {
+    margin-bottom: 20px;
+  }
+  .easy {
+    padding-bottom: 40px;
+  }
+
+}

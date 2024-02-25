@@ -66,3 +66,38 @@
     padding: 20px;
     box-sizing: border-box;
 }
+@media (max-width:999px) {
+  .char_section {
+    padding-top: 80px;
+  }
+  .cont {
+    flex-direction: column;
+  }
+  .main_text {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: -2%;
+text-align: left;
+  }
+  .list_char {
+    gap: 10px;
+  }
+  .list_char li {
+    color: rgb(222, 222, 222);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .cont_for_text {
+    align-items: center;
+  }
+  .img_printer {
+    width: 100%;
+  }
+}
